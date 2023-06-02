@@ -48,18 +48,23 @@ const Projects = () => {
 								<HandsOnOne/>
 							</TabPanel>
 							<TabPanel>
+								<h1>Chapter 2: Personal Security</h1>
 								<HandsOnTwo/>
 							</TabPanel>
 							<TabPanel>
+								<h1>Chapter 3: Computer Security</h1>
 								<HandsOnThree/>
 							</TabPanel>
 							<TabPanel>
+								<h1>Chapter 4: Internet Security</h1>
 								<HandsOnFour/>
 							</TabPanel>
 							<TabPanel>
+								<h1>Chapter 5: Mobile Security</h1>
 								<HandsOnFive/>
 							</TabPanel>
 							<TabPanel>
+								<h1>Chapter 6: Privacy</h1>
 								<HandsOnSix/>
 							</TabPanel>
 						</Tabs>
