@@ -319,13 +319,102 @@ function HandsOnFour(){
                 </TabList>
 
                 <TabPanel>
-                    <h1>TITLE</h1>
+                    <h1>Case Project 4.1: Compare Browser Security</h1>
                     <p>
-                        CONTENTS
-                        {/* <Image
-                        src={require('./hands_on/ho_1/1-2/3.png')}
-                        alt='step 3 image'
-                        className='w-max'/> */}
+                    Of the most popular web browsers—IE, Firefox, Safari, Opera, and Chrome—
+                    which is the most secure? Using the Internet, research the security
+                    features of each of these browsers. Create a table that lists the different
+                    security features. In your opinion, is there one browser that is more secure
+                    than the rest? Is there a browser that is the least secure? Give reasons
+                    for your conclusion.
+                        <table className="min-w-full">
+                            <thead className="bg-white border-b">
+                                <tr>
+                                    <th className='w-20'>Browsers</th>
+                                    <th className='w-80'>Security Features</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className="bg-gray-100 border-b">
+                                    <td>
+                                        Internet Explorer (IE)
+                                    </td>
+                                    <td>
+                                    Microsoft Internet Explorer was a more popular web browser for many years
+                                    from 1999 to 2012 as it surpassed the Netscape Navigator during this time.
+                                    It includes network file sharing, several internet connections, active
+                                    Scripting, and security settings. It also provides other features such
+                                    as: Remote administration.
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border-b">
+                                    <td>
+                                        Firefox
+                                    </td>
+                                    <td>
+                                    Firefox is a popular web browser with various features. It has a customizable
+                                    interface, private browsing mode, and a built-in password manager. It also
+                                    supports add-ons, which can enhance functionality. Firefox includes a download
+                                    manager, tabbed browsing, and syncing bookmarks, history, and passwords across
+                                    devices
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-100 border-b">
+                                    <td>
+                                        Safari
+                                    </td>
+                                    <td>
+                                        <ul className='list-disc'>
+                                            <li>Ad Blocker.</li>
+                                            <li>Address Bar.</li>
+                                            <li>Bookmark Management.</li>
+                                            <li>Dark Mode.</li>
+                                            <li>Extension Management.</li>
+                                            <li>Privacy Options.</li>
+                                            <li>Private Browsing.</li>
+                                            <li>Search Engine.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr className="bg-white border-b">
+                                    <td>
+                                        Opera
+                                    </td>
+                                    <td>
+                                    Opera's built-in VPN reduces online
+                                    tracking and shield browsing from
+                                    third-party trackers, enabling users
+                                    to secure their privacy online.
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-100 border-b">
+                                    <td>
+                                        Chrome
+                                    </td>
+                                    <td>
+                                        <ul className='list-disc'>
+                                            <li>Overview.</li>
+                                            <li>Google address bar.</li>
+                                            <li>Password check.</li>
+                                            <li>Sync.</li>
+                                            <li>Dark mode.</li>
+                                            <li>Tabs.</li>
+                                            <li>Articles for you.</li>
+                                            <li>Extensions.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <em><b>
+                            Based from the features and other results, Firefox is far more secure than the others.
+                            Firefox is open-source, whereas Chrome is not. That means anyone can look at Firefox's
+                            code and potentially find bugs which Mozilla can then quickly resolve. Open-source products
+                            and software tend to be favored by cyber security experts because they're open for vetting
+                            by the general public. <br/><br/>
+                            While the least secure for me is the Google Chrome since based from recent research that 
+                            chrome is the most vulnerable web browser, with 303 bugs being found in the tool in 2022 alone.
+                        </b></em>
                     </p>
                 </TabPanel>
             </Tabs>
