@@ -21,13 +21,13 @@ function HandsOnOne(){
                     damage did it inflict? Using the information in Table 1-2, list the reason or reasons
                     you think that the attack was successful. How was the computer fixed after the
                     attack? What could have prevented it? Write a one-page paper about these
-                    experiences.
+                    experiences.<br/><br/>
                     <b><em>Many people said that once their friends started receiving unusual messages
                         from their Facebook profiles, their accounts had been hacked. Through these mails,
                         the hackers forwarded links that had not been checked to several friends of the victims.
                         This attack, which is a phishing attack, cost one of my friends their lives. In this kind
                         of attack, the hacker lures you into going to a website that seems authentic but actually
-                        has malware, such viruses, or asks you for your personal information. <br/>
+                        has malware, such viruses, or asks you for your personal information. <br/><br/>
                         Sadly, an unsafe link that had a virus in it tricked my friend. She lost access to her
                         Facebook account as a result, and her name and other information were modified or deleted.
                         In order to keep the attack going, the hacker keeps sending her Facebook friends dubious
@@ -42,21 +42,22 @@ function HandsOnOne(){
                         The Information Security Community website is an online companion to this
                         textbook. It contains a wide variety of tools, information, discussion boards, and
                         other features to assist learners. In order to gain the most benefit from the site, you
-                        will need to set up a free account. Go to http://community.cengage.com.
+                        will need to set up a free account. Go to <a href='http://community.cengage.com' target='_blank'>
+                        http://community.cengage.com</a>.
                         Click the “Join or Sign In” icon at the top of the page and then click Join Here. On
                         the Register page, enter the requested information (for your sign in name, use your
                         fist name and last name separated with a period or use the naming convention
                         designated by your instructor). Explore the various features of the Information
                         Security Community website, and become familiar with it. Visit the blog section and
-                        read the blog postings to learn about some of the latest events in IT security.
+                        read the blog postings to learn about some of the latest events in IT security.<br/><br/>
                         <Image
                         src={require('./case_proj/cp_1/1.png')}
                         alt='Cengage Image'
-                        className='w-max'/>
+                        className='w-max'/><br/>
                         <Image
                         src={require('./case_proj/cp_1/2.png')}
                         alt='Cengage Image'
-                        className='w-max'/>
+                        className='w-max'/><br/>
                         <Image
                         src={require('./case_proj/cp_1/3.png')}
                         alt='Cengage Image'
@@ -73,17 +74,114 @@ function HandsOnTwo(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 1.1</Tab>
+                    <Tab>Case Project 2-1</Tab>
                 </TabList>
 
                 <TabPanel>
-                    <h1>TITLE</h1>
+                    <h1>Case Project 2-1: Testing Password Strength</h1>
                     <p>
-                        CONTENTS
-                        {/* <Image
-                        src={require('./hands_on/ho_1/1-2/3.png')}
-                        alt='step 3 image'
-                        className='w-max'/> */}
+                        How strong are your passwords? Various online tools can provide information on password
+                        strength, but not all feedback is the same. First, assign the numbers 1 through 3 to three of
+                        the passwords you are currently using, and write down the number (not the password) on
+                        a piece of paper. Then, enter those passwords into these three online password testing
+                        services: <br/>
+                        • How Secure Is My Password (howsecureismypassword.net/)<br/>
+                        • Check Your Password (www.microsoft.com/security/pc-security/password-checker.
+                        aspx)<br/>
+                        • The Password Meter (www.passwordmeter.com /)<br/>
+                        Record next to each number the strength of that password as indicated by these three
+                        online tools. Then use each online password tester to modify the password by adding more
+                        random numbers or letters to increase its strength. How secure are your passwords? Would
+                        any of these tools encourage someone to create a stronger password? Which provided the
+                        best information? Create a one-paragraph summary of your findings.<br/>
+                        <table>
+                            <tr>
+                                <th>
+                                    howsecureismypassword.net/
+                                </th>
+                                <th>
+                                    www.microsoft.com/security/pc-security/password-checker.aspx
+                                </th>
+                                <th>
+                                    www.passwordmeter.com
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/1.png')}
+                                    alt='6 tredecillion years'
+                                    className='w-max'/>
+                                </td>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/2.png')}
+                                    alt='404: Page not found.'
+                                    className='w-max'/>
+                                </td>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/3.png')}
+                                    alt='Very Strong'
+                                    className='w-max'/>
+                                </td>
+
+                            </tr>
+                        </table>
+                        <h2><b>Adding Random Numbers and Letters</b></h2>
+                        <table>
+                            <tr>
+                                <th>
+                                    howsecureismypassword.net/
+                                </th>
+                                <th>
+                                    www.microsoft.com/security/pc-security/password-checker.aspx
+                                </th>
+                                <th>
+                                    www.passwordmeter.com
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/4.png')}
+                                    alt='2 hundred quattuordecillion years'
+                                    className='w-max'/>
+                                </td>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/2.png')}
+                                    alt='404: Page not found.'
+                                    className='w-max'/>
+                                </td>
+                                <td>
+                                <Image
+                                    src={require('./case_proj/cp_2/5.png')}
+                                    alt='Very Strong'
+                                    className='w-max'/>
+                                </td>
+                            </tr>
+                        </table>
+                        <b><em>
+                            There is a difference in the evaluation of my password's security across
+                            two independent password-checking services (aside from Microsoft, which is
+                            temporarily unavailable). My password is very strong, requiring a computer
+                            6 tredecillion years to crack it, according to "How Secure Is My Password?"
+                            My password, however, receives a 100% score from "The Password Meter" and
+                            is deemed to have very strong difficulty, although it doesn't match some
+                            requirements for an exceptionally strong password. <br/><br/>
+                            By establishing basic standards, such as requiring letters (both uppercase
+                            and lowercase), digits, symbols, and the avoidance of repeating characters,
+                            "The Password Meter" encourages users to develop more secure passwords.                            
+                            However, "How Secure Is My Password?" could mislead consumers into thinking
+                            that their passwords are secure enough even if they just contain three to
+                            four words.<br/><br/>
+                            In conclusion, "The Password Meter" can be regarded as a benchmark among
+                            password-checking services because it offers thorough details regarding the
+                            strength of passwords, establishes minimum standards, and evaluates whether
+                            or not a password's complexity is sufficient. Compared to other services, it
+                            provides a more thorough estimate of password strength.
+                            </em></b>
                     </p>
                 </TabPanel>
             </Tabs>
