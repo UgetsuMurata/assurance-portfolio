@@ -42,7 +42,7 @@ function HandsOnOne(){
                         The Information Security Community website is an online companion to this
                         textbook. It contains a wide variety of tools, information, discussion boards, and
                         other features to assist learners. In order to gain the most benefit from the site, you
-                        will need to set up a free account. Go to <a href='http://community.cengage.com' target='_blank'>
+                        will need to set up a free account. Go to <a href='http://community.cengage.com' target='_blank' rel="noreferrer">
                         http://community.cengage.com</a>.
                         Click the “Join or Sign In” icon at the top of the page and then click Join Here. On
                         the Register page, enter the requested information (for your sign in name, use your
@@ -74,11 +74,11 @@ function HandsOnTwo(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 2-1</Tab>
+                    <Tab>Case Project 2.1</Tab>
                 </TabList>
 
                 <TabPanel>
-                    <h1>Case Project 2-1: Testing Password Strength</h1>
+                    <h1>Case Project 2.1: Testing Password Strength</h1>
                     <p>
                         How strong are your passwords? Various online tools can provide information on password
                         strength, but not all feedback is the same. First, assign the numbers 1 through 3 to three of
@@ -194,17 +194,115 @@ function HandsOnThree(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 1.1</Tab>
+                    <Tab>Case Project 3.1</Tab>
+                    <Tab>Case Project 3.2</Tab>
                 </TabList>
 
                 <TabPanel>
-                    <h1>TITLE</h1>
+                    <h1>Case Project 3.1: Online Backup Services</h1>
                     <p>
-                        CONTENTS
-                        {/* <Image
-                        src={require('./hands_on/ho_1/1-2/3.png')}
-                        alt='step 3 image'
-                        className='w-max'/> */}
+                        There are several good continuous online backup services that can
+                        help make data backup easy for the user. Use a search engine to
+                        search for online backup service reviews, and select three different
+                        services. Research these services and note their features. Create a
+                        table that lists each service and compare their features. Be sure to
+                        also include costs. Which would you recommend? Why? <br/>
+                        <table className="min-w-full">
+                            <thead className="bg-white border-b">
+                                <tr>
+                                    <th className='w-15'>Name</th>
+                                    <th className='w-45'>Features</th>
+                                    <th className='w-40'>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className="bg-gray-100 border-b">
+                                    <td>
+                                        CrashPlan For Small Business
+                                        </td>
+                                    <td>
+                                        It has unlimited priced per machine, an unlimited storage,
+                                        external drive backups and Two Factor Authentication. It
+                                        is also fast upload a download speeds Lastly it has a lot
+                                        of security and scheduling options.
+                                    </td>
+                                    <td>
+                                        CrashPlan is rather expensive. You can get unlimited backup
+                                        space for unlimited devices as long as you’re willing to pay
+                                        $10 per month per computer.
+                                    </td>
+                                </tr>
+                                <tr class="bg-white border-b">
+                                    <td>
+                                        SpiderOak One
+                                    </td>
+                                    <td>
+                                        SpiderOak was the first online storage (or online-syncing) service 
+                                        to make sure the customer held a private, exclusive encryption key.
+                                        SpiderOak also has strong file-sharing and -syncing features, as well
+                                        as support for unlimited machines and, if you insist, backups of
+                                        system files and applications. <br/><br/>
+                                        Yet SpiderOak's storage-space pricing is so high that it's more
+                                        competitive with Dropbox than it is with IDrive. While its file-restoration
+                                        speed was amazingly fast, its initial upload speed was glacial.
+                                    </td>
+                                    <td>
+                                        You can choose from any of the following plans:<br/><br/>
+                                        <ul className='list-disc'>
+                                            <li>150 GB for $6 a month or $69 a year</li>
+                                            <li>400 GB for $11 a month or $115 a year</li>
+                                            <li>2 TB for $14 a month or $149 a year</li>
+                                            <li>5 TB for $29 per month or $320 a year</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-100 border-b">
+                                    <td>
+                                        Carbonite
+                                    </td>
+                                    <td>
+                                        Carbonite offers unlimited storage, which is always nice to
+                                        have in one of the best cloud backup services. It also has
+                                        an intuitive user interface that shows you which files have
+                                        been fully, partly or not backed up. <br/><br/>
+                                        Multiple machines are supported on a single account, but
+                                        there's no volume discount — each additional machine costs
+                                        as much as the first. Upload speeds are slow. And Carbonite's
+                                        appealing mobile apps are no longer available, with the company
+                                        giving no timetable for their return.
+                                    </td>
+                                    <td>
+                                        Today’s Best Deals
+                                        <ul className='list-disc'>
+                                            <li>$3.50/mth at Carbonite</li>
+                                            <li>$5/mth at Carbonite</li>
+                                            <li>$58.99/year at Carbonite</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>Case Project 3.2: Information Security Community Site Activity</h1>
+                    <p>
+                        The Information Security Community Site is an online companion to this
+                        textbook. It contains a wide variety of tools, information, discussion
+                        boards, and other features to assist learners. Go to community.cengage.com/infosec.
+                        Sign in with the login name and password that you created in Chapter 1. What should be
+                        the penalty for those who create viruses, worms, and other destructive malware? Prison
+                        time? Monetary fines? How should it be enforced? And would this deter attackers? Record
+                        your responses on the Community Site discussion board. <br/><br/>
+                        <b><em>
+                        The creation of viruses, worms, and other malicious programs should be punished with both
+                        jail time and large fines. Enforcement should be carried out by joint efforts between law
+                        enforcement agencies, governments, and the information technology (IT) industry. Threats of
+                        serious legal consequences and prosecution can act as a deterrent, making potential attackers
+                        rethink before partaking in such unlawful behavior. It is essential to keep in mind that the
+                        efficiency of these penalties in deterring attackers can vary, mandating a thorough strategy
+                        that takes root cause analysis, education, and awareness into account.
+                        </em></b>
                     </p>
                 </TabPanel>
             </Tabs>
@@ -217,7 +315,7 @@ function HandsOnFour(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 1.1</Tab>
+                    <Tab>Case Project 4.1</Tab>
                 </TabList>
 
                 <TabPanel>
