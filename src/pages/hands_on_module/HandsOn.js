@@ -499,7 +499,7 @@ function HandsOnTwo(){
             <TabPanel>
                 <h1>Project 2-5: Write-Protecting a USB Flash Drive</h1>
                 <p>
-                    
+
                 </p>
             </TabPanel>
             <TabPanel>
@@ -513,7 +513,145 @@ function HandsOnTwo(){
 }
 function HandsOnThree(){
     return(
-        <></>
+        <>
+        <br/><br/>
+        <Tabs>
+                <TabList>
+                    <Tab>Hands On 3.1</Tab>
+                    <Tab>Hands On 3.2</Tab>
+                    <Tab>Hands On 3.3</Tab>
+                    <Tab>Hands On 3.4</Tab>
+                </TabList>
+
+                <TabPanel>
+                    <h1>Project 3.1: Configure Microsoft Windows Security</h1>
+                    <p>
+                        1. Click Start and Settings.<br/>
+                        2. Click Update and security.<br/>
+                        3. If necessary click Windows Update in the left pane.<br/>
+                        4. Click Advanced options, then under Choose how updates are installed change to
+                        Automatic (recommended).<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/4.png')}
+                        alt='step 4 image'
+                        className='w-max'/><br/>
+                        5. Click Give me updates for other Microsoft products when I update Windows. This will
+                        allow for updates for Microsoft software such as Office to also be updated.<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/5.png')}
+                        alt='step 5 image'
+                        className='w-max'/>
+                        6. Click View your update history to see the updates that have been installed on your
+                        computer.<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/6.png')}
+                        alt='step 6 image'
+                        className='w-max'/>
+                        7. Click the back arrow.<br/>
+                        8. Click the back arrow to return to Update & Security.<br/>
+                        9. Click Windows Defender. This is the Microsoft AV product that is part of Windows 10.<br/>
+                        10. Be sure that all the settings are set to On.<br/>
+                        11. Click Use Windows Defender. The Windows Defender dialog box appears.<br/>
+                        12. Under Scan options: be sure that Quick is selected.<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/12.png')}
+                        alt='step 12 image'
+                        className='w-max'/>
+                        13. Now perform a Quick scan of the most essential files. Click Scan now. Depending upon
+                        your system it may take several minutes to complete. What was the result of the scan?<br/>
+                        14. Click the History tab. Be sure that Quarantined items is selected and click View details.
+                        Has Defender already identified suspicious files on this computer and placed them in
+                        quarantine? When you are finished, close Windows Defender.<br/>
+                        15. In the Find a setting search box enter UAC and press Enter.<br/>
+                        16. Click Change User Account Control Settings. The User Account Control Settings dialog
+                        box opens.<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/16.png')}
+                        alt='step 16 image'
+                        className='w-max'/>
+                        17. Move the slider through all of the choices and notice the description of each.<br/>
+                        18. Position the slider to Always notify. Why is this the best security setting? Click OK and
+                        then Yes.<br/>
+                        <b><em>
+                            This is the best setting as it will detect and notify you of changes you or an app makes.
+                            So, whenever an app makes configuration changes to your computer, it will not happen without you knowing.
+                        </em></b> <br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/18.png')}
+                        alt='step 18 image'
+                        className='w-max'/>
+                        19. Now check your personal firewall. Return to the Settings window. Click Network and
+                        Internet.<br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/19.png')}
+                        alt='step 19 image'
+                        className='w-max'/>
+                        20. Click Ethernet.<br/>
+                        21. Click Windows Firewall to view the firewall settings.<br/>
+                        22. Click Allow an app or feature through Windows Firewall to display the Allowed apps
+                        dialog box as seen in Figure 3-11. Scroll through the list of apps that can transmit through
+                        the firewall. Are there apps that you are not using that should be removed from this list?<br/>
+                        <b><em>Yes, there are apps that I am not using that should be removed from this list.</em></b><br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/22.png')}
+                        alt='step 22 image'
+                        className='w-max'/>
+                        23. Close the Allowed apps dialog box. <br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/23.png')}
+                        alt='step 23 image'
+                        className='w-max'/>
+                        24. Close the Settings dialog box. <br/>
+                        25. Finally, create a recovery drive for this computer. First insert a blank USB flash drive. <br/>
+                        26. In the Windows search box enter recoverydrive.exe and press Enter. Click Yes in the
+                        UAC. <br/>
+                        27. The Recovery Drive dialog box appears. Click Next. <br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/27.png')}
+                        alt='step 27 image'
+                        className='w-max'/>
+                        28. The system gathers the appropriate files. In the Select the USB flash drive dialog box
+                        select the appropriate drive. Click Next. <br/>
+                        <Image
+                        src={require('./hands_on/ho_3/3-1/28.png')}
+                        alt='step 28 image'
+                        className='w-max'/>
+                        29. Click Create to complete the process. <br/>
+                        30. After the drive has been created close all windows. <br/>
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>TITLE</h1>
+                    <p>
+                    CONTENTS
+                    {/* <Image
+                        src={require('./hands_on/ho_1/1-1/2.png')}
+                        alt='step 2 image'
+                        className='w-max'/> */}
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>TITLE</h1>
+                    <p>
+                    CONTENTS
+                    {/* <Image
+                        src={require('./hands_on/ho_1/1-1/2.png')}
+                        alt='step 2 image'
+                        className='w-max'/> */}
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>TITLE</h1>
+                    <p>
+                    CONTENTS
+                    {/* <Image
+                        src={require('./hands_on/ho_1/1-1/2.png')}
+                        alt='step 2 image'
+                        className='w-max'/> */}
+                    </p>
+                </TabPanel>
+            </Tabs>
+        </>
     );
 }
 function HandsOnFour(){
