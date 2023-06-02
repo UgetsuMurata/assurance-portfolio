@@ -232,7 +232,7 @@ function HandsOnThree(){
                                         $10 per month per computer.
                                     </td>
                                 </tr>
-                                <tr class="bg-white border-b">
+                                <tr className="bg-white border-b">
                                     <td>
                                         SpiderOak One
                                     </td>
@@ -427,17 +427,72 @@ function HandsOnFive(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 1.1</Tab>
+                    <Tab>Case Project 5.1</Tab>
+                    <Tab>Case Project 5.2</Tab>
                 </TabList>
-
                 <TabPanel>
-                    <h1>TITLE</h1>
+                    <h1>Case Project 5.1: Your Wireless Security</h1>
                     <p>
-                        CONTENTS
-                        {/* <Image
-                        src={require('./hands_on/ho_1/1-2/3.png')}
-                        alt='step 3 image'
-                        className='w-max'/> */}
+                        Is the wireless network you own as secure as it should be? Examine your
+                        wireless network or that of a friend or neighbor and determine which security
+                        model it uses. Next, outline the steps it would take to move it to the next
+                        highest level. Estimate how much it would cost and how much time it would take
+                        to increase the level. Finally, estimate how long it would take you to replace
+                        all the data on your computer if it was corrupted by an attacker, and what you
+                        might lose. Would this be a motivation to increase your current wireless security
+                        model? Write a one-page paper on your work. <br/><br/>
+                        To examine the network configuration on Windows, you can use the "ipconfig /all"
+                        command. Linux users can use the "ifconfig" command to view their network details.
+                        These commands provide information such as the host name, primary DNS suffix, IP
+                        routing status, and network adapter details.<br/><br/>
+                        <div className="bg-gray-100 p-4">
+                            <code className="text-sm font-mono text-gray-800">
+                            Wireless LAN adapter Wi-Fi:<br/><br/>
+                            Description: Intel(R) Wi-Fi 6 AX201 160MHz<br/>
+                            Physical Address: B0-3C-DC-BB-E5-1D<br/>
+                            IPv4 Address: 192.168.110.156<br/>
+                            Subnet Mask: 255.255.255.0<br/>
+                            Default Gateway: 192.168.110.1<br/>
+                            DHCP Server: 192.168.110.1<br/>
+                            DNS Servers: 192.168.110.1<br/>
+                            </code>
+                        </div>
+                        Using tools like Wireshark can help you deeply analyze your network, capture data
+                        packets, and understand the security model. Wireshark provides a GUI interface and
+                        additional information on transmission control protocols and more.<br/><br/>
+                        To enhance network security, consider implementing firewalls such as application
+                        gateways, packet filtering, or hybrid systems. Crypto cable routers and virtual
+                        private networks (VPNs) can also be used to improve network security.<br/><br/>
+                        The cost and time required to increase network security will depend on the chosen
+                        architecture and the size of the network. Larger networks may require more resources
+                        and time to implement security measures effectively.<br/><br/>
+                        In the event of a computer attack, the time required to replace data will depend on
+                        the size of the data on the disk and the bandwidth of the network. A higher bandwidth
+                        network allows for faster data replacement in case of an attack.
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>Case Project 5.2: Information Security Community Site Activity</h1>
+                    <p>
+                    The Information Security Community Site is an online companion to this textbook. It
+                    contains a wide variety of tools, information, discussion boards, and other features
+                    to assist learners. Go to community.cengage.com/infosec. Sign in with the login name
+                    and password that you created in Chapter 1. What is the legality of war driving? Is it
+                    considered illegal? Why or why not? If it is not illegal, do you think it should be?
+                    What should be the penalties? Record your responses on the Community Site discussion board.<br/><br/>
+                    <b><em>
+                    There are no laws that prohibit people from gathering or collecting data from wireless
+                    networks or creating computer-generated maps. That said, wardriving can be illegal when
+                    it involves exploiting insecure networks to access private information.<br/><br/>
+                    Wardriving should be considered illegal due to concerns over privacy invasion, unauthorized
+                    network access, potential disruption of network infrastructure, and the existing legal gray
+                    areas surrounding its activities.<br/><br/>
+                    The penalties for wardriving, if deemed illegal, can vary depending on the jurisdiction
+                    and the severity of the offense. Possible penalties may include fines, probation, community
+                    service, or even imprisonment. The specific penalties would be determined by the legal system
+                    and would aim to deter individuals from engaging in unauthorized wireless network access
+                    and protect the privacy and security of network users.
+                    </em></b>
                     </p>
                 </TabPanel>
             </Tabs>
@@ -450,17 +505,88 @@ function HandsOnSix(){
             <br/><br/>
             <Tabs>
                 <TabList>
-                    <Tab>Case Project 1.1</Tab>
+                    <Tab>Case Project 6.1</Tab>
+                    <Tab>Case Project 6.2</Tab>
                 </TabList>
-
                 <TabPanel>
-                    <h1>TITLE</h1>
+                    <h1>Case Project 6.1: Microsoft Windows 10 Privacy</h1>
                     <p>
-                        CONTENTS
-                        {/* <Image
-                        src={require('./hands_on/ho_1/1-2/3.png')}
-                        alt='step 3 image'
-                        className='w-max'/> */}
+                        With the introduction of Microsoft Windows 10, Microsoft by default gathers
+                        information about user preferences. For example, Windows 10 assigns an
+                        advertising ID to users and then uses it to deliver customized ads and
+                        information. This has caused alarm among some users regarding intrusion
+                        into their privacy. Using the Internet, research the information gathered
+                        through Windows 10. What are the advantages of this data collection? What
+                        are the disadvantages? Is this any different from how other operating systems
+                        and websites gather information? Should Microsoft be more upfront about the
+                        collection of this data? Is there a way to turn the data collection off? If
+                        so, how is it done? Should it be easier to turn it off for users who do not
+                        want their data collected? Write a one-page paper on your research and opinions. <br/><br/>
+                        <b><em>
+                        The advantages of information gathered through Windows 10 are manifold. Firstly,
+                        it provides valuable insights for product improvement, allowing Microsoft to
+                        identify and address software bugs, compatibility issues, and enhance system
+                        performance based on user feedback. This iterative process ensures a more stable
+                        and user-friendly operating system. Secondly, the data collected contributes to
+                        enhanced security measures as Microsoft can proactively detect and resolve potential
+                        security threats, protecting users from malware and other cybersecurity risks.
+                        Additionally, the information gathered enables personalized user experiences by
+                        tailoring features, recommendations, and suggestions within Windows 10 to individual
+                        preferences, enhancing productivity and user satisfaction. Lastly, the aggregated
+                        data aids in optimizing services by analyzing usage patterns, user behavior, and
+                        preferences, resulting in refined and efficient user experiences. However, it is
+                        important to acknowledge the potential disadvantages, including concerns about
+                        privacy risks, unauthorized data access, lack of user control over personal data,
+                        and the necessity of robust security measures to prevent data breaches or misuse.<br/><br/>
+                        The practices of data collection can vary among operating systems and websites, but there
+                        are some commonalities. Many operating systems and websites collect data to improve their
+                        products and services, enhance security, personalize user experiences, and optimize their
+                        offerings based on user behavior and preferences. However, the specific data collection
+                        methods, extent of data collected, and purposes can differ between different platforms and
+                        services. Each operating system or website may have its own privacy policies and settings
+                        that outline their data collection practices, and it's important for users to review and
+                        understand these policies to make informed decisions about their privacy.<br/><br/>
+                        Many individuals believe that Microsoft should prioritize transparency and be more upfront
+                        about the collection of user data in Windows 10. Providing clear and accessible information
+                        about what data is collected, why it is collected, and how it is used would allow users to
+                        make more informed decisions about their privacy. Microsoft does offer privacy settings in
+                        Windows 10, which allow users to customize their data collection preferences. While the
+                        specific steps may vary, users can typically navigate through the settings and privacy
+                        menus to adjust their preferences and limit or turn off certain data collection practices.
+                        However, some argue that Microsoft should make it easier for users to opt out of data
+                        collection if they do not wish their data to be collected. Simplifying privacy settings and
+                        providing clear, easily accessible options for opting out would enhance user control and privacy
+                        protection. It's important to strike a balance between user privacy concerns and the need for
+                        data to improve products and services, as some data collection is necessary for essential
+                        functionality and security purposes.
+                        </em></b>
+                    </p>
+                </TabPanel>
+                <TabPanel>
+                    <h1>Case Project 6.2: Information Security Community Site Activity</h1>
+                    <p>
+                        The Information Security Community Site is an online companion to this
+                        textbook. It contains a wide variety of tools, information, discussion
+                        boards, and other features to assist learners. Go to community.cengage.com/infosec.
+                        Sign in with the login name and password that you created in Chapter 1. How do you
+                        feel about the NSA gathering data on American citizens? Is it a serious intrusion
+                        on privacy? Or is it a practical protection in the world today in order to keep
+                        the nation safe? Should there be laws in place to prevent this? Record your
+                        responses on the Community Site discussion board.<br/><br/>
+                        <b><em>
+                        The gathering of data by intelligence agencies such as the National Security Agency
+                        (NSA) on American citizens has been a subject of controversy and debate. Supporters
+                        argue that such data collection is necessary for national security purposes, as it
+                        can help prevent potential threats and protect the country from acts of terrorism
+                        or other forms of harm. <br/><br/>
+                        The question of whether data gathering by intelligence agencies is a serious intrusion
+                        on privacy or a practical protection measure is subjective. Supporters argue it is
+                        necessary for national security, while critics highlight concerns about privacy and
+                        civil liberties. Achieving the right balance between privacy and security is a complex
+                        challenge, subject to ongoing debate and scrutiny.<br/><br/>
+                        Yes, there should be laws in place to prevent this kind of issue.
+
+                        </em></b>
                     </p>
                 </TabPanel>
             </Tabs>
